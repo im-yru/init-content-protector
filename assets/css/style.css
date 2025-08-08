@@ -1,0 +1,146 @@
+.imc-skeleton-line {
+    height: 1.5em;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    background-color: #e1e4e8;
+}
+
+.imc-skeleton-line.short {
+    width: 40%;
+}
+
+.imc-skeleton-line::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(255, 255, 255, 0.3),
+        transparent
+  );
+  animation: imc-skeleton-shimmer 1.5s infinite;
+}
+
+.uk-light .imc-skeleton-line::after {
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(255, 255, 255, 0.09),
+        transparent
+  );
+}
+
+@keyframes imc-skeleton-shimmer {
+    100% {
+        left: 100%;
+    }
+}
+
+.frag-shade-01,
+.ghost-x7,
+.scramble-v3,
+.nullcore-beta,
+.blurwave-92,
+.hidezone-k1,
+.phantom-lag,
+.junklayer-zx,
+.stealth-tick,
+.flick-fade-r7,
+.vapor-delta,
+.cloak-mute-9,
+.packet-fog,
+.mute-husk-88,
+.shadow-glitch,
+.dust-null,
+.junk-mark32,
+.camoframe-z1,
+.crackline-vx,
+.bit-spike,
+.noisepatch-t2,
+.anti-read-burst,
+.cloakdrop-v7,
+.faint-node,
+.echo-trick,
+.shield-pulse-0x,
+.blind-phase,
+.loopbug-alpha,
+.ghostline-17,
+.mist-frag,
+.invis-junk,
+.flick-hint,
+.dummy-ghost,
+.silent-dust,
+.hovermask-01,
+.blurpoint-mix,
+.phaseblock-zk,
+.hollow-trail,
+.node-husk,
+.noise-crawl,
+.masker-core,
+.patchwave-93,
+.hacknull-tt,
+.mimic-mute-5x,
+.hush-blip,
+.filter-junked,
+.glitchcore,
+.softfade-v9,
+.decoy-null,
+.streamblock-q4,
+.noshadow-55,
+.divert-trap,
+.slice-invert,
+.scatter-vibe,
+.whitefade,
+.trapdust-fake,
+.shadowbyte,
+.offset-glow,
+.noise-token,
+.pixel-disrupt,
+.crackloop,
+.blocktrap-ghost,
+.coreblur-beta,
+.pulsar-drop,
+.blindfade-mx,
+.shimmer-null,
+.lag-bug-21,
+.trapzone-random,
+.lineghost-v1,
+.blurstream-fake,
+.inert-code-99,
+.distort-mimic,
+.cloakping,
+.jammer-lost,
+.nodedust-18,
+.fakeline-delta,
+.buffblock-k2,
+.trickpulse,
+.fogmark-v0,
+.scramble-loop,
+.coverray-ghost,
+.noise-phi-7,
+.fragshade-l1,
+.zapdust,
+.anti-scan-33,
+.bypass-hollow,
+.tracer-dust,
+.shade-void,
+.invisible-xn,
+.null-slice,
+.offpoint-zz,
+.glitch-tag,
+.blurtrace-71,
+.stealth-zap,
+.dropfilter-f,
+.dummy-dash-3,
+.smokephase,
+.mute-jammer,
+.jam-dustbox,
+.fakeslice-z {
+    display: none !important;
+}

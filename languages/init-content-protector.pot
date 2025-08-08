@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Init Content Protector\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-27\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "A lightweight plugin to protect your post content from copy, scraping, and inspection. Features include copy protection, keyword cloaking, noise injection, and full content encryption."
+msgstr ""
+
+msgid "Init Content Protector Settings"
+msgstr ""
+
+msgid "Content Protection"
+msgstr ""
+
+msgid "Content Protection Mode"
+msgstr ""
+
+msgid "No Protection"
+msgstr ""
+
+msgid "Encrypt Content (decode via JS)"
+msgstr ""
+
+msgid "Encrypting the content helps prevent crawlers from reading raw HTML. Do not enable if you need SEO access."
+msgstr ""
+
+msgid "Enable JavaScript Content Protection"
+msgstr ""
+
+msgid "Block printing, prevent right-click and text selection, and interfere with browser developer tools."
+msgstr ""
+
+msgid "Blocks copying, selecting, printing, and inspecting content via JS. Includes right-click disable, keyboard shortcut blocking (Ctrl/⌘ + C, P, U, etc.), and DevTools interference."
+msgstr ""
+
+msgid "Inject Noise"
+msgstr ""
+
+msgid "Insert invisible junk spans randomly to confuse crawlers."
+msgstr ""
+
+msgid "Invisible to real readers. Junk spans use display: none."
+msgstr ""
+
+msgid "Sensitive Keywords to Obscure"
+msgstr ""
+
+msgid "Enter keywords to hide. Separate by commas. Example: <code>dragon ball,one piece,naruto</code>"
+msgstr ""
+
+msgid "These will be replaced visually using CSS pseudo-elements and hidden from raw HTML."
+msgstr ""
+
+msgid "Apply Protection to Post Types"
+msgstr ""
+
+msgid "Choose which post types to apply content protection to. Media is excluded."
+msgstr ""
+
+msgid "Custom Encryption Key"
+msgstr ""
+
+msgid "Use a unique key for this website. Leave blank to use default key from plugin constant."
+msgstr ""
+
+msgid "Content Selector (for JS injection)"
+msgstr ""
+
+msgid "CSS selector to locate content wrapper. Used for decryption and JS protection. Example: <code>.entry-content</code>"
+msgstr ""
+
+msgid "Important Notes When Using This Plugin:"
+msgstr ""
+
+msgid "Use encryption only if you understand its impact on SEO, caching, and content accessibility."
+msgstr ""
+
+msgid "JavaScript protection relies on client-side execution. It can be bypassed by experienced users."
+msgstr ""
+
+msgid "For best results, combine multiple protection layers (encryption, JS, keyword cloaking)."
+msgstr ""
+
+msgid "This plugin does not prevent content theft 100%. It raises the difficulty level for scraping."
+msgstr ""

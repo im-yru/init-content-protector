@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Init Content Protector\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-27\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "A lightweight plugin to protect your post content from copy, scraping, and inspection. Features include copy protection, keyword cloaking, noise injection, and full content encryption."
+msgstr "Một plugin nhẹ giúp bảo vệ nội dung bài viết của bạn khỏi bị sao chép, quét dữ liệu và kiểm tra. Các tính năng bao gồm bảo vệ sao chép, ẩn từ khóa, chèn nhiễu và mã hóa toàn bộ nội dung."
+
+msgid "Init Content Protector Settings"
+msgstr "Cài đặt Init Content Protector"
+
+msgid "Content Protection"
+msgstr "Bảo vệ Nội dung"
+
+msgid "Content Protection Mode"
+msgstr "Chế độ Bảo vệ Nội dung"
+
+msgid "No Protection"
+msgstr "Không bảo vệ"
+
+msgid "Encrypt Content (decode via JS)"
+msgstr "Mã hóa nội dung (giải mã bằng JavaScript)"
+
+msgid "Encrypting the content helps prevent crawlers from reading raw HTML. Do not enable if you need SEO access."
+msgstr "Việc mã hóa nội dung giúp ngăn crawler đọc HTML gốc. Không nên bật nếu bạn cần SEO truy cập vào nội dung."
+
+msgid "Enable JavaScript Content Protection"
+msgstr "Bật bảo vệ nội dung bằng JavaScript"
+
+msgid "Block printing, prevent right-click and text selection, and interfere with browser developer tools."
+msgstr "Chặn in nội dung, vô hiệu hóa chuột phải và chọn văn bản, gây nhiễu công cụ phát triển trình duyệt."
+
+msgid "Blocks copying, selecting, printing, and inspecting content via JS. Includes right-click disable, keyboard shortcut blocking (Ctrl/⌘ + C, P, U, etc.), and DevTools interference."
+msgstr "Chặn sao chép, chọn, in và kiểm tra nội dung bằng JavaScript. Gồm cả việc vô hiệu hóa chuột phải, chặn phím tắt (Ctrl/⌘ + C, P, U, v.v.), và gây nhiễu công cụ DevTools."
+
+msgid "Inject Noise"
+msgstr "Chèn từ nhiễu"
+
+msgid "Insert invisible junk spans randomly to confuse crawlers."
+msgstr "Chèn các đoạn mã vô hình vào ngẫu nhiên để gây nhiễu crawler."
+
+msgid "Invisible to real readers. Junk spans use display: none."
+msgstr "Không ảnh hưởng đến người đọc thật. Các đoạn chèn sẽ bị ẩn bằng CSS."
+
+msgid "Sensitive Keywords to Obscure"
+msgstr "Từ khóa nhạy cảm cần làm mờ"
+
+msgid "Enter keywords to hide. Separate by commas. Example: <code>dragon ball,one piece,naruto</code>"
+msgstr "Nhập các từ khóa cần ẩn, phân cách bằng dấu phẩy. Ví dụ: <code>dragon ball,one piece,naruto</code>"
+
+msgid "These will be replaced visually using CSS pseudo-elements and hidden from raw HTML."
+msgstr "Chúng sẽ được thay thế bằng CSS (pseudo-element) và không xuất hiện trong mã HTML gốc."
+
+msgid "Apply Protection to Post Types"
+msgstr "Áp dụng bảo vệ cho Post Type"
+
+msgid "Choose which post types to apply content protection to."
+msgstr "Chọn post type cần áp dụng bảo vệ nội dung."
+
+msgid "Custom Encryption Key"
+msgstr "Khóa mã hóa tùy chỉnh"
+
+msgid "Use a unique key for this website. Leave blank to use default key from plugin constant."
+msgstr "Hãy dùng một khóa duy nhất cho website này. Để trống nếu muốn dùng khóa mặc định của plugin."
+
+msgid "Content Selector (for JS injection)"
+msgstr "CSS Selector vùng nội dung (dùng cho JS)"
+
+msgid "CSS selector to locate content wrapper. Used for decryption and JS protection. Example: <code>.entry-content</code>"
+msgstr "CSS selector để xác định vùng bao nội dung. Dùng để giải mã và áp dụng bảo vệ bằng JavaScript. Ví dụ: <code>.entry-content</code>"
+
+msgid "Important Notes When Using This Plugin:"
+msgstr "Các lưu ý quan trọng khi sử dụng plugin này:"
+
+msgid "Use encryption only if you understand its impact on SEO, caching, and content accessibility."
+msgstr "Chỉ sử dụng chế độ mã hóa khi bạn hiểu rõ ảnh hưởng của nó đến SEO, bộ nhớ đệm và khả năng truy cập nội dung."
+
+msgid "JavaScript protection relies on client-side execution. It can be bypassed by experienced users."
+msgstr "Bảo vệ bằng JavaScript hoạt động phía người dùng và có thể bị vượt qua bởi người dùng có kinh nghiệm."
+
+msgid "For best results, combine multiple protection layers (encryption, JS, keyword cloaking)."
+msgstr "Để đạt hiệu quả tối ưu, nên kết hợp nhiều lớp bảo vệ (mã hóa, JS, làm mờ từ khóa)."
+
+msgid "This plugin does not prevent content theft 100%. It raises the difficulty level for scraping."
+msgstr "Plugin này không thể ngăn chặn 100% hành vi sao chép nội dung. Nó chỉ giúp tăng độ khó cho các công cụ quét nội dung."
