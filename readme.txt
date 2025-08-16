@@ -1,10 +1,10 @@
 === Init Content Protector – Anti-Copy, Anti-Scrape, Encrypt-All ===
 Contributors: brokensmile.2103
 Tags: content protection, anti-copy, copy protection, encryption, anti-scraping
-Requires at least: 5.5
+Requires at least: 5.7
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,7 +52,15 @@ Yes. You can set a custom key per site for added security.
 
 == Changelog ==
 
-= 1.0.0 – July 23, 2025 =
+= 1.1 – August 16, 2025 =
+- Changed minimum WordPress requirement to 5.7 to leverage wp_get_inline_script_tag for safer inline script output
+- Replaced wp_add_inline_script with direct inline <script> injection for guaranteed execution across all single post pages
+- Added inline script nonce/type support via wp_get_inline_script_tag for enhanced security
+- Ensured encrypted payload is always available early in content, even if certain script handles are missing
+- Added CustomEvent trigger (init-content-payload-ready) to allow frontend scripts to react when encrypted content is ready
+- Prevented duplicate inline script injection when content filters run multiple times
+
+= 1.0 – July 23, 2025 =
 - Initial release
 - JavaScript-based content protection (block copy, right-click, print, DevTools)
 - Full AES-256 content encryption with CryptoJS decryption
